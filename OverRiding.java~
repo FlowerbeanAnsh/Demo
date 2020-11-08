@@ -1,0 +1,18 @@
+class Test6{
+    public void m1(int a){
+        System.out.println("parent class");
+    }
+}
+class Test7 extends Test6{
+    public void m1(int a){
+        System.out.println("child class");
+    }
+}
+
+public class OverRiding {
+    public static void main(String[] args) {
+        Test7 obj = new Test7();
+        obj.m1(78);
+
+    }
+}
