@@ -14,7 +14,7 @@ public class GenericEg{
         obj.PrintArray(numbers);
     }
 }
-// we are using generic method because it is very difficult to overload a mathod many
+// we are using generic method because it is very difficult to overload a method many
 //times according to datatype..so generic methods help us to solve this problem
 // we have only a single method by which we can print all type of values
 // we can not use generic method without arguments
